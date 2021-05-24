@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 255, 0.541);
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+.fa-tint {
+  position: absolute;
+  top: -40px;
+  animation: rain infinite;
+  color: #a1c6cc;
+  z-index: -1;
+}
+@keyframes rain {
+  to {
+    transform: translateY(105vh);
+  }
+}
+.weather_main_container {
+  background: rgba(3, 32, 66, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  height: 90vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+}
+.weather_text_heading {
+  font-size: 7rem;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+}
+.first_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* background: rebeccapurple; */
+}
+
+.weather_days_info {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  /* background: red; */
+}
+
+.days {
+  margin-right: 1rem;
+}
+.text {
+  font-size: 1.7rem;
+  font-weight: 300;
+}
+
+.ifont {
+  font-size: 4rem;
+}

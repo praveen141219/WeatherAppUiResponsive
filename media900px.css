@@ -1,0 +1,43 @@
+@media screen and(min-width: 900px) {
+  .weather_main_container {
+    width: 90rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .weather_main_container {
+    height: 98vh;
+  }
+
+  .weather_text_heading {
+    font-size: 4.5rem;
+  }
+
+  .weather_days_info {
+    display: flex;
+    flex-direction: column;
+    /* margin: 4rem; */
+  }
+  .days {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .text {
+    font-size: 1.5rem;
+  }
+  .weather_text_heading {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .text {
+    font-size: 1rem;
+  }
+  .weather_text_heading {
+    font-size: 2rem;
+  }
+}
